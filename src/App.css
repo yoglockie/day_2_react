@@ -42,10 +42,25 @@
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   
   
 }
 
 .cards{
     background-color: lightgray;
+}
+
+.imgDiv{
+       
+       border-radius: 20px;
+       margin-top: 20px;
+       min-width: 18rem;
+}
+
+.imgDiv:hover{
+  box-shadow: 8px 8px 8px black,8px 8px 8px black;
+  transform: scale(1.1);
+  transition-duration: 0.5s;
 }
