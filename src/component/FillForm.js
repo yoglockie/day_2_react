@@ -5,6 +5,10 @@ import { useState } from 'react';
 
 import Offcanvas from 'react-bootstrap/Offcanvas';
 
+function IncreaseC() {
+   console.log("Loki")
+}
+
 export default function FillForm() {
     const [show, setShow] = useState(false);
 
@@ -33,7 +37,7 @@ export default function FillForm() {
       
     </Form>
     <div className="d-grid gap-2">
-    <Button variant="primary" size="lg">
+    <Button variant="primary" size="lg" onClick={IncreaseC}>
       Submit
     </Button>
     <Button variant="primary" onClick={handleShow}>
@@ -53,3 +57,4 @@ export default function FillForm() {
    </div>
   )
 }
+
